@@ -9,3 +9,5 @@ CarPlay is supported by default when you run Simulator. However, you should conf
 To enable extra options, enter the following command in Terminal before launching Simulator: 
 
 defaults write com.apple.iphonesimulator CarPlayExtraOptions -bool YES
+
+You also may need to run $pod install again before you open the workspace
