@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BBD1A2FD5A8D4AF14B054C3 /* Pods_CarplayNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AB071C10BBD6B1F4C61229 /* Pods_CarplayNavigation.framework */; };
+		C3FC590C23628D8800EF1FEB /* TemplateCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC590B23628D8800EF1FEB /* TemplateCreator.swift */; };
+		C3FC593B2362B38D00EF1FEB /* ResultsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC593A2362B38D00EF1FEB /* ResultsModel.swift */; };
+		C3FC593D2362B3C500EF1FEB /* ResultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC593C2362B3C500EF1FEB /* ResultsManager.swift */; };
+		C584EF2720EAADB000D1652C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C584EF2520EAADB000D1652C /* Main.storyboard */; };
+		C584EF2920EAADB100D1652C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C584EF2820EAADB100D1652C /* Assets.xcassets */; };
+		C584EF2C20EAADB100D1652C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C584EF2A20EAADB100D1652C /* LaunchScreen.storyboard */; };
+		C591530E20EBF84900330FD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584EF2320EAADB000D1652C /* ViewController.swift */; };
+		C591530F20EBF84D00330FD8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C591530A20EBF2AB00330FD8 /* MapViewController.swift */; };
+		C591531020EBF84F00330FD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584EF2120EAADB000D1652C /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		185F45717CDE05CC4A3426C3 /* Pods-CarplayNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarplayNavigation.release.xcconfig"; path = "Target Support Files/Pods-CarplayNavigation/Pods-CarplayNavigation.release.xcconfig"; sourceTree = "<group>"; };
+		259C22C8444D785447162645 /* Pods-CarplayNav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarplayNav.debug.xcconfig"; path = "Target Support Files/Pods-CarplayNav/Pods-CarplayNav.debug.xcconfig"; sourceTree = "<group>"; };
+		31AC06B3A0E3A3A9449A9CF7 /* Pods-CarplayNav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarplayNav.release.xcconfig"; path = "Target Support Files/Pods-CarplayNav/Pods-CarplayNav.release.xcconfig"; sourceTree = "<group>"; };
+		7E64596753F5CD1EB103C70B /* Pods-CarplayNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarplayNavigation.debug.xcconfig"; path = "Target Support Files/Pods-CarplayNavigation/Pods-CarplayNavigation.debug.xcconfig"; sourceTree = "<group>"; };
+		C3FC590B23628D8800EF1FEB /* TemplateCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateCreator.swift; sourceTree = "<group>"; };
+		C3FC593A2362B38D00EF1FEB /* ResultsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsModel.swift; sourceTree = "<group>"; };
+		C3FC593C2362B3C500EF1FEB /* ResultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsManager.swift; sourceTree = "<group>"; };
+		C584EF1E20EAADB000D1652C /* CarplayNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarplayNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C584EF2120EAADB000D1652C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C584EF2320EAADB000D1652C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C584EF2620EAADB000D1652C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C584EF2820EAADB100D1652C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C584EF2B20EAADB100D1652C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C584EF2D20EAADB100D1652C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C584EF3B20EAB47900D1652C /* CarplayNavigation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CarplayNavigation.entitlements; sourceTree = "<group>"; };
+		C591530A20EBF2AB00330FD8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F9AB071C10BBD6B1F4C61229 /* Pods_CarplayNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarplayNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C584EF1B20EAADB000D1652C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBD1A2FD5A8D4AF14B054C3 /* Pods_CarplayNavigation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3FC59372362A67900EF1FEB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C3FC590B23628D8800EF1FEB /* TemplateCreator.swift */,
+				C3FC593C2362B3C500EF1FEB /* ResultsManager.swift */,
+				C3FC593A2362B38D00EF1FEB /* ResultsModel.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C584EF1520EAADB000D1652C = {
+			isa = PBXGroup;
+			children = (
+				C584EF2020EAADB000D1652C /* CarplayNavigation */,
+				C584EF1F20EAADB000D1652C /* Products */,
+				C584EF3420EAAE0400D1652C /* Frameworks */,
+				E0B2DF55DF55C6D79B295EFC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C584EF1F20EAADB000D1652C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C584EF1E20EAADB000D1652C /* CarplayNavigation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C584EF2020EAADB000D1652C /* CarplayNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				C584EF2120EAADB000D1652C /* AppDelegate.swift */,
+				C591530D20EBF77800330FD8 /* Views */,
+				C591530C20EBF76D00330FD8 /* ViewControllers */,
+				C3FC59372362A67900EF1FEB /* Helpers */,
+				C584EF3B20EAB47900D1652C /* CarplayNavigation.entitlements */,
+				C584EF2820EAADB100D1652C /* Assets.xcassets */,
+				C584EF2D20EAADB100D1652C /* Info.plist */,
+			);
+			path = CarplayNavigation;
+			sourceTree = "<group>";
+		};
+		C584EF3420EAAE0400D1652C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9AB071C10BBD6B1F4C61229 /* Pods_CarplayNavigation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C591530C20EBF76D00330FD8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C584EF2320EAADB000D1652C /* ViewController.swift */,
+				C591530A20EBF2AB00330FD8 /* MapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C591530D20EBF77800330FD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C584EF2520EAADB000D1652C /* Main.storyboard */,
+				C584EF2A20EAADB100D1652C /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E0B2DF55DF55C6D79B295EFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				259C22C8444D785447162645 /* Pods-CarplayNav.debug.xcconfig */,
+				31AC06B3A0E3A3A9449A9CF7 /* Pods-CarplayNav.release.xcconfig */,
+				7E64596753F5CD1EB103C70B /* Pods-CarplayNavigation.debug.xcconfig */,
+				185F45717CDE05CC4A3426C3 /* Pods-CarplayNavigation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C584EF1D20EAADB000D1652C /* CarplayNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C584EF3020EAADB100D1652C /* Build configuration list for PBXNativeTarget "CarplayNavigation" */;
+			buildPhases = (
+				85A11DE56453D1435D474DE5 /* [CP] Check Pods Manifest.lock */,
+				C584EF1A20EAADB000D1652C /* Sources */,
+				C584EF1B20EAADB000D1652C /* Frameworks */,
+				C584EF1C20EAADB000D1652C /* Resources */,
+				EC552E2B3D194784A496F414 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarplayNavigation;
+			productName = CarplayNavigatoinTesting;
+			productReference = C584EF1E20EAADB000D1652C /* CarplayNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C584EF1620EAADB000D1652C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Gispert, Othmar";
+				TargetAttributes = {
+					C584EF1D20EAADB000D1652C = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1030;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C584EF1920EAADB000D1652C /* Build configuration list for PBXProject "CarPlayNavigation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C584EF1520EAADB000D1652C;
+			productRefGroup = C584EF1F20EAADB000D1652C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C584EF1D20EAADB000D1652C /* CarplayNavigation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C584EF1C20EAADB000D1652C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C584EF2C20EAADB100D1652C /* LaunchScreen.storyboard in Resources */,
+				C584EF2920EAADB100D1652C /* Assets.xcassets in Resources */,
+				C584EF2720EAADB000D1652C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85A11DE56453D1435D474DE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarplayNavigation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC552E2B3D194784A496F414 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarplayNavigation/Pods-CarplayNavigation-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarplayNavigation/Pods-CarplayNavigation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C584EF1A20EAADB000D1652C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FC590C23628D8800EF1FEB /* TemplateCreator.swift in Sources */,
+				C591531020EBF84F00330FD8 /* AppDelegate.swift in Sources */,
+				C3FC593D2362B3C500EF1FEB /* ResultsManager.swift in Sources */,
+				C591530E20EBF84900330FD8 /* ViewController.swift in Sources */,
+				C591530F20EBF84D00330FD8 /* MapViewController.swift in Sources */,
+				C3FC593B2362B38D00EF1FEB /* ResultsModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C584EF2520EAADB000D1652C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C584EF2620EAADB000D1652C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C584EF2A20EAADB100D1652C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C584EF2B20EAADB100D1652C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C584EF2E20EAADB100D1652C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C584EF2F20EAADB100D1652C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C584EF3120EAADB100D1652C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E64596753F5CD1EB103C70B /* Pods-CarplayNavigation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CarplayNavigation/CarplayNavigation.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/CarplayNavigation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.igispert.carplaynavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C584EF3220EAADB100D1652C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 185F45717CDE05CC4A3426C3 /* Pods-CarplayNavigation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CarplayNavigation/CarplayNavigation.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/CarplayNavigation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.igispert.carplaynavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C584EF1920EAADB000D1652C /* Build configuration list for PBXProject "CarPlayNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C584EF2E20EAADB100D1652C /* Debug */,
+				C584EF2F20EAADB100D1652C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C584EF3020EAADB100D1652C /* Build configuration list for PBXNativeTarget "CarplayNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C584EF3120EAADB100D1652C /* Debug */,
+				C584EF3220EAADB100D1652C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C584EF1620EAADB000D1652C /* Project object */;
+}
